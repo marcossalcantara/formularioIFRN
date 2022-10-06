@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="shortcut icon" href="./assets/icon-form.png" type="image/x-icon">
+    <title>Cadastro de alunos desenvolvedores Front End do IFRN Campus Currais Novos - Cadastre-se</title>
+</head>
+
+<body>
+    <header>
+        <h1>
+            Feito para você que é DEV Front End
+        </h1>
+        <p><em>Projeto desenvolvido na disciplina de Desenvolvimento Front End, da grade curricular do curso tecnólogo de Tecnologia em Sistemas para Internet (TSI) do IFRN-CN, ministrada pelo professor Alisson Alves.</em></p>
+    </header>
+
+    <section class="container">
+        <form action="">
+            <article class="box">
+                <label class="titleCamp" for="name">Nome completo</label>
+                <input class="input" type="text" name="name" id="name" placeholder="Seu nome completo">
+            </article>
+            <article class="box">
+                <label class="titleCamp" for="email">Seu email principal</label>
+                <input class="input" type="email" name="email" id="email" placeholder="email@exemplo.com.br">
+            </article>
+
+            <article class="box">
+                <label class="titleCamp" for="year">Idade</label>
+                <input class="input" type="number" name="year" id="year" placeholder="Idade em anos">
+            </article>
+
+            <article class="box">
+                <label class="titleCamp" for="">Qual a opção que descreve sua ocupação atual?</label>
+                <select name="" id="">
+                    <option value="" selected>Selecione uma opção</option>
+                    <option value="">Estudante</option>
+                    <option value="">Trabalhador em tempo integral</option>
+                    <option value="">Trabalhador em meio período</option>
+                    <option value="">Freelancer</option>
+                    <option value="">Prefiro não dizer</option>
+                    <option value="">Outro</option>
+                </select>
+            </article>
+            <article class="box">
+                <label class="titleCamp" for="">Você recomendaria as aulas de Desenvolvimento Front End a algum estudante?</label>
+
+                <div class="boxRadio">
+                    <input type="radio" name="yes-probably-no" id="YES">
+                    <label for="YES">Sim, recomendo</label>
+                </div>
+                <div class="boxRadio">
+                    <input type="radio" name="yes-probably-no" id="PROBABLY">
+                    <label for="PROBABLY">Talvez</label>
+                </div>
+                <div class="boxRadio">
+                    <input type="radio" name="yes-probably-no" id="NO">
+                    <label for="NO"> Não recomendo</label>
+                </div>
+
+            </article>
+
+            <article class="box">
+                <label class="titleCamp" for="">Qual sua área preferida no mercado de TI?</label>
+                <select name="" id="">
+                    <option value="" selected>Selecione uma opção</option>
+                    <option value="">Desenvolvimento Front End</option>
+                    <option value="">Desenvolvimento Back End</option>
+                    <option value="">Redes de computadores</option>
+                    <option value="">Segurança da informação</option>
+                    <option value="">UI/UX Design</option>
+                </select>
+            </article>
+
+            <article class="box">
+                <label class="titleCamp" for="">Quais são suas redes sociais em uso?</label>
+
+                <div class="boxCheckbox">
+                    <input type="checkbox" name="" id="GIT">
+                    <label for="GIT">Github</label>
+                </div>
+                <div class="boxCheckbox">
+                    <input type="checkbox" name="" id="LKD">
+                    <label for="LKD">Linkedin</label>
+                </div>
+                <div class="boxCheckbox">
+                    <input type="checkbox" name="" id="DCR">
+                    <label for="DCR">Discord</label>
+                </div>
+                <div class="boxCheckbox">
+                    <input type="checkbox" name="" id="IG">
+                    <label for="IG">Instagram</label>
+                </div>
+                <div class="boxCheckbox">
+                    <input type="checkbox" name="" id="BE">
+                    <label for="BE">Behance</label>
+                </div>
+                <div class="boxCheckbox">
+                    <input class="input" type="text" name="" id="" placeholder="Outra...">
+                </div>
+            </article>
+
+            <article class="box">
+                <label class="titleCamp" for="">Adicionar comentários</label>
+                <textarea name="" id="" cols="30" rows="10"></textarea>
+            </article>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+    <footer>
+        <p><em>
+            Desenvolvido por <a class="email" target="_blank" href="mailto:silva.alcantara@escolar.ifrn.edu.br">Marcos Alcântara</a>. TSI - IFRN/CN
+                2022.2
+        </em></p>
+    </footer>
+</body>
+
+</html>
